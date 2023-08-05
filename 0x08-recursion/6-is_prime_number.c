@@ -11,15 +11,15 @@ int is_prime_number(int n);
 */
 int _divisible(int x, int y)
 {
-        if (x % y == 0)
-        {
-                return (0);
-        }
-        if (y == x / 2)
-        {
-                return (1);
-        }
-        return (_divisible(x, y + 1));
+	if (x % y == 0)
+	{
+		return (0);
+	}
+	if (y == x / 2)
+	{
+		return (1);
+	}
+	return (_divisible(x, y + 1));
 }
 
 /**
@@ -30,13 +30,15 @@ int _divisible(int x, int y)
 
 int is_prime_number(int n)
 {
-        int y = 2;
+	int y = 2;
 
-        if (n <= 1)
-        {
-                return (0);
+	if (n <= 1)
+	{
+		return (0);
+	}
+	if (n >= 2 && n <= 3)
+	{
+		return (1);
 	}
 	return (_divisible(n, y));
 }
-
-
