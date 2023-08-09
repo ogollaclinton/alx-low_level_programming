@@ -5,7 +5,7 @@
  * create_array - Creates array of size size and assign char c
  * @size: size of array
  * @c: char to assign
- * Return: Nullif fail or pointer to an array
+ * Return: Null if fail or pointer to an array
  *
  */
 
@@ -16,7 +16,7 @@ char *create_array(unsigned int size, char c)
 
 	b = malloc(sizeof(char) * size);
 
-	if (!size || b == NULL)
+	if (b == NULL)
 	{
 		return (NULL);
 	}
