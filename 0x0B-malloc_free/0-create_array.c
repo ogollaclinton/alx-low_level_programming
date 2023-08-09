@@ -3,9 +3,9 @@
 
 /*
  *create_array - Creates array of size size and assign char c
- *@size: size of an array
- *@c: char to initialise
- *Return: Null or pointer
+ *@size: size of array
+ *@c: char to assign
+ *Return: Nullif fail or pointer to an array
  *
  */
 
