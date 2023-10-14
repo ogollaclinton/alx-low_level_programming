@@ -15,7 +15,7 @@ int main(int __attribute__((__unused__)) argc, char *argv[])
 
 	code = "A-CHRDw87lNS0E9B2TibgpnMVys5XzvtOGJcYLU+4mjW6fxqZeF3Qa1rPhdKIouk";
 
-	temp = (len ^ 59) & 63;
+	tmp = (len ^ 59) & 63;
 	passwd[0] = code[tmp];
 
 	tmp = 0;
