@@ -6,7 +6,7 @@
  *
  *returns - NULL if fails, otherwise the address of the new node
  */
-dlistint_t *add_dnodeint(dlistint_t **head, const int n);
+dlistint_t *add_dnodeint(dlistint_t **head, const int n)
 {
 	dlistint_t *newnode;
 
